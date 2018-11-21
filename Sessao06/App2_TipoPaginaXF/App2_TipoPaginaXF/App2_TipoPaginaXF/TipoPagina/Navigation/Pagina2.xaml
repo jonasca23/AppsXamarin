@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2_TipoPaginaXF.TipoPagina.Navigation.Pagina2"
+             Title="Título Página 2">>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eu sou a página 2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Clicked="MudarParaPaginaModal" Text="Ir para a página Modal" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
